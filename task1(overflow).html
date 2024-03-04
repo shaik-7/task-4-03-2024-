@@ -1,0 +1,180 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-color: black;
+            }
+            ul, li{
+                margin:5px;
+            }
+            .size{
+                padding: 2px 22px;
+
+            }
+            .size2{
+                padding: 2px 20px;
+            }
+            .size3{
+                padding: 2px 31px;
+            }
+            .table1,.table2{
+                background-color:aquamarine;
+                border-style: groove;
+                border-color: blanchedalmond;
+                border-width: 30px;
+                width: 1500px;
+                height: 500px;
+                text-align: center;
+                margin: 5px;
+            }
+            .size4{
+                padding: 2px 15px;
+            }
+            .table2{
+                right:0;
+                top: 5px;
+                overflow: auto;
+            }
+            .td2{
+                width:10%;
+            }
+            #buddha{
+                overflow:scroll;
+                white-space: nowrap;
+                width: 1500px;
+                height:100px;
+                position:relative;
+            }
+            .rect2{
+                width: 400px;
+                height: 50px;
+                background-color: black;
+                position: absolute;
+                left:65px;
+                top:250px;
+            }
+            .rect3{
+                width: 300px;
+                height: 25px;
+                background-color: blueviolet;
+                position: absolute;
+                left:110px;
+                top:275px;
+            }
+            .rect4{
+                width: 200px;
+                height: 12.5x;
+                background-color: brown;
+                position:absolute;
+                left: 160px;
+                top: 280px;
+            }
+            #box{
+                overflow:scroll;
+                white-space: nowrap;
+                position:relative;
+                width: 1500px;;
+                height: 100px;
+            }
+            #calculator{
+                overflow:scroll;
+                white-space: nowrap;
+                position:relative;
+                width: 1500px;
+                background-color: white;
+            }
+            #colors{
+                position:relative;
+                width: 50%;
+                height: 100px;
+                background-color: white;
+            }
+            #netflix{
+                position:relative;
+                width: 50%;
+                height: 150px;
+                background-color: blueviolet;
+                margin-bottom: 5px;
+                overflow: auto;
+            }
+            #scrollbar{
+                overflow:scroll;
+            }
+            #netflix,td{
+
+            }
+        </style>
+    </head>
+    <body>
+            <table class="table1">
+            <tr>
+                <td><button><a href="#buddha">Gautama Buddha</a></button></td>
+            </tr>
+            <tr>
+                <td><button><a href="#box" class="size">BoxModel</a></button></td>
+            </tr>
+            <tr>
+                <td><button><a href="#calculator" class="size">Calculator</a></button></td>
+            </tr>
+            <tr>
+                <td><button><a href="#colors" class="size3">Colors</a></button></td>
+            </tr>
+            <tr>
+                <td><button><a href="#netflix" class="size4">NetflixVideo</a></button></td>
+            </tr>
+            </table>
+            <table class="table2">
+                <tr>
+                <td class="td2">
+                <section id="buddha" style="background-color: cornflowerblue;">
+                    <center><h1>Gautama Buddha</h1></center>
+                    <hr>
+                    <p><section>
+                    <a href="https://en.wikipedia.org/wiki/The_Buddha">Gautama Buddha</a>, also known as Siddhartha Gautama, was a spiritual leader and the founder of <a href="https://en.wikipedia.org/wiki/Buddhism">Buddhism</a>, a major world religion that originated in the Indian subcontinent. Born around 563 BCE into a royal family in <a href="https://en.wikipedia.org/wiki/Lumbini">Lumbini</a>, now in modern-day Nepal, Siddhartha led a life of privilege and luxury. However, his deep contemplation on the nature of suffering and the impermanence of life led him to renounce his princely life at the age of 29 in search of spiritual understanding</div></p>
+                    <p><div>Embarking on a profound spiritual journey, Siddhartha engaged in rigorous ascetic practices and meditation for several years. His quest culminated in the attainment of enlightenment, or "Bodhi," under the <a href="https://en.wikipedia.org/wiki/Bodhi_Tree">Bodhi tree</a> in <a href="https://en.wikipedia.org/wiki/Bodh_Gaya">Bodh Gaya</a>. This transformative event marked the birth of Buddhism, and Siddhartha became known as the Buddha, meaning "the awakened one" or "the enlightened one."</div></p>
+                    <p><div>Gautama Buddha passed away at the age of 80 in <a href="https://en.wikipedia.org/wiki/Kushinagar">Kushinagar</a>, India, around 483 BCE. This event, known as <a href="https://en.wikipedia.org/wiki/Parinirvana#:~:text=In%20Buddhism%2C%20parinirvana%20(Sanskrit%3A,the%20dissolution%20of%20the%20skandhas.">Parinirvana</a>, symbolizes his complete liberation from the cycle of birth and death. Buddha's teachings, emphasizing mindfulness, compassion, and the pursuit of enlightenment, have left an indelible mark on the spiritual and philosophical landscape. Buddhism, with its diverse traditions and global following, continues to be a significant force promoting inner transformation and the alleviation of suffering.</div></p>
+                </section>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                    <section id="calculator">
+                        <img src="calculator.png" width="500" height="100">
+                    </section>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                    <section id="box" style="background-color: black;">
+                        <div>
+                            <center>
+                            <div class="rect1">Border</div>
+                            <div class="rect2">Margin</div>
+                            <div class="rect3">Padding</div>
+                            <div class="rect4"><div style="color: whitesmoke;">width * Height</div></div>
+                            </center>
+                        </div>
+                    </section>
+                </td>
+                </tr>
+                <tr>
+                <td id="colors">
+                   <iframe src="./colors.html" width="500px" height="100px"></iframe>
+                </td>
+                </tr>
+                <tr>
+                <td id="netflix">
+                    <section>
+                        <h1>John Wick 4</h1>
+                        <hr>
+                        <h3>Plot:</h3>
+                        <p>With the price on his head ever increasing, legendary hit man John Wick takes his fight against the High Table global as he seeks out the most powerful players in the underworld, from New York to Paris to Japan to Berlin.</p>
+                        <h3>Cast:</h3>
+                        <p>Keanu Reeves,Donnie Yen,Bill Skarsgard,Laurence Fishburne,Hiroyuki Sanada,Shamier Anderson</p> 
+                        <a href='./johnwick(video).html'><button>Play Movie</button></a>
+                    </section>
+                </td>
+                </tr>
+            </table>
+    </body>
+</html>

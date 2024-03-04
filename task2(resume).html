@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Resume</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: blanchedalmond;
+    }
+
+    section {
+      margin-bottom: 10px;
+    }
+
+    h1,
+    h2 {
+      color: #333;
+    }
+    h1::before{
+        content:"Shaik.";
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    h3+li+ul {
+      font-size: 14px;
+    }
+
+    h3+ul {
+      font-size: 14px;
+    }
+
+    #photo {
+      float: right;
+      border-radius: 80%;
+      position: relative;
+      right: 10px;
+      bottom: 20px;
+    }
+    li,h2,p::after{
+        content:"No backlogs"
+    }
+    p::first-line{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    ul::marker{
+        background-color:red;
+    }
+    a,button::marker{
+        color: red;
+    }
+    button::before{
+       content:"";
+       background-color: coral;
+       position:absolute;
+       top:0px;
+       bottom:0px;
+       height:100%;
+       width:100%;
+       z-index: -1;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1 style="background-color: aquamarine;">Avez <img src="passport photo-shaik.avez.jpg" width="250" height="200"
+        id="photo"></h1>
+    <p>Address 1|58779895|sample@gmail.com</p>
+  </header>
+  <section>
+    <p>Highly motivated recent Computer Science graduate with a passion for
+      Machine Learning seeking an entry-level role to apply my coding skills and
+      contribute to innovative projects.
+    </p>
+  </section>
+  <section>
+    <ul>
+      <li>
+        <h2>Education</h2>
+        <p><strong>Graduation</strong>:B.E/B.Tech,CSE,CIT college,chennai</p>
+        <p>CGPA:8.67</p>
+      </li>
+      <li>
+        <p><strong>Secondary Education</strong>,Narayana College,Nellore,Andhra Pradesh</p>
+        <p>CGPA:8.5</p>
+      </li>
+      <li>
+        <p><strong>Schooling</strong>,Vowel School,Nellore,Andhra Pradesh</p>
+        <p>CGPA:9.7</p>
+      </li>
+    </ul>
+  </section>
+  <section>
+    <ul>
+      <h3>Projects</h3>
+      <li>
+        <p><strong>Heart Failure Prediction:</strong></p>
+        <p>It is about finding the proximity of dangerous heart health. I used
+          mostly three types of algorithms which support the Vector machine,
+          Random Forest,Decision tree.I received an Accuracy of 88 percent.</p>
+      </li>
+      <li>
+        <p><strong>Breast Cancer Prediction:</strong< /p>
+            <p>completed this while pursuing a course in udemy.Under Guidance of
+              the trainer who is certified.I mostly used regression Related
+              algorithms.Logistic Regression played a vital role with High accuracy
+              rate of above 85 percentage.</p>
+      </li>
+    </ul>
+  </section>
+  <section>
+    <h3>Certifications:</h3>
+    <ul>
+      <p>
+        <li>Certification in algorithmic problem solving by coursera</li>
+        <li>Certification in python by coursera from michigan university.</li>
+        <li>Certification in operation systems(theory) by udemy.</li>
+        <li>Certification on machine learning by udemy.</li>
+        <li>Certification in Data Structures and Algorithms by Udemy.</li>
+      </p>
+    </ul>
+  </section>
+  <footer>
+    <section>
+      <a href="./AvezResume.pdf" download><button>Download</button></a>
+    </section>
+  </footer>
+</body>
+
+</html>
